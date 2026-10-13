@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nolira — Privacy</title>
+<style>
+  :root { --bg:#F4FAF9; --tx:#14201E; --mut:#5B6B68; --br:#0E9E8A; --card:#fff; --bd:#D6E6E3; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0F1716; --tx:#E6F0EE; --mut:#9AB0AC; --br:#3CC9B2; --card:#16211F; --bd:#24332F; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--tx); font:16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h1 span { color: var(--br); }
+  h2 { font-size: 19px; margin: 28px 0 8px; }
+  .muted { color: var(--mut); font-size: 14px; }
+  section { background: var(--card); border: 1px solid var(--bd); border-radius: 16px; padding: 4px 20px 16px; margin-top: 24px; }
+  ul { padding-left: 20px; }
+  a { color: var(--br); }
+</style>
+</head>
+<body>
+<main>
+  <h1><span>Nolira</span> — Privacy policy</h1>
+  <p class="muted">Last updated: October 13, 2026 · <a href="#fr">Version française plus bas</a></p>
+
+  <section>
+    <h2>In short</h2>
+    <p>Nolira collects, transmits and sells <strong>no data</strong>. The app does not have the internet permission: your notes cannot leave your phone unless you choose to export or share them.</p>
+
+    <h2>Data stored on the device</h2>
+    <ul>
+      <li>The text of your notes, checklists, folders, tags and reminders.</li>
+      <li>Photos you add (copied into the app's private storage) and voice memos you record.</li>
+      <li>Text read from your photos, used for search. This runs on the device with a bundled model (Google ML Kit, offline version); no image is sent anywhere.</li>
+      <li>Your preferences (theme, text size…).</li>
+    </ul>
+    <p>Locked notes are encrypted (AES-256-GCM) with a key kept in the Android Keystore.</p>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li><strong>Microphone</strong>: only while recording a voice memo you started.</li>
+      <li><strong>Notifications and exact alarms</strong>: show your reminders on time.</li>
+      <li><strong>Boot completed</strong>: reschedule reminders after a restart.</li>
+      <li><strong>Biometrics</strong>: unlock locked notes. Nolira never receives your fingerprint.</li>
+      <li><strong>Camera</strong>: Nolira opens your phone's camera app and only receives the photo you take. It does not request the camera permission.</li>
+    </ul>
+
+    <h2>Backups and sharing</h2>
+    <p>Nolira makes automatic backups of your notes at the frequency and time you choose (you can turn them off). They are kept in the app's private storage on your phone and, only if you chose a backup folder, copied to that folder. Exports (backup file, Markdown, PDF) are created only when you ask, where you pick. If a folder you chose is synced by another service (Google Drive, etc.), that service's policy applies. The same goes for sharing a note to another app. Backups can be protected by a backup password you choose: it is never stored, only a key derived from it, kept encrypted on your phone. Nolira opts out of Android's automatic cloud backup, so your notes are never copied to the cloud without your action.</p>
+
+    <h2>Deletion</h2>
+    <p>Uninstalling Nolira or clearing its data in Android settings permanently deletes all app data. Backup files you exported stay where you saved them.</p>
+
+    <h2>Children</h2>
+    <p>Nolira collects no data from anyone, including children.</p>
+
+    <h2>Contact</h2>
+    <p>Questions: <a href="mailto:nolira@forceit.tech">nolira@forceit.tech</a></p>
+    <p>If you write to us from the app (More → Help &amp; contact), your email app opens with the app version, Android version, phone model and language already filled in, to help us answer. Nothing is sent until you send it yourself, and you can remove these details. We use your email only to reply to you.</p>
+  </section>
+
+  <h1 id="fr" style="margin-top:48px"><span>Nolira</span> — Politique de confidentialité</h1>
+  <p class="muted" lang="fr">Dernière mise à jour : 13 octobre 2026</p>
+
+  <section lang="fr">
+    <h2>En résumé</h2>
+    <p>Nolira ne collecte, ne transmet et ne vend <strong>aucune donnée</strong>. L'application ne possède pas la permission d'accès à Internet : vos notes ne peuvent pas quitter votre téléphone sans action de votre part.</p>
+
+    <h2>Données stockées sur l'appareil</h2>
+    <ul>
+      <li>Le texte de vos notes, listes, dossiers, tags et rappels.</li>
+      <li>Les photos que vous ajoutez (copiées dans l'espace privé de l'application) et les mémos vocaux que vous enregistrez.</li>
+      <li>Le texte lu dans vos photos, pour la recherche. Cette lecture se fait sur l'appareil avec un modèle intégré (Google ML Kit, version hors ligne), sans envoi d'image.</li>
+      <li>Vos préférences (thème, taille du texte…).</li>
+    </ul>
+    <p>Les notes verrouillées sont chiffrées (AES-256-GCM) avec une clé conservée dans le Keystore Android.</p>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li><strong>Microphone</strong> : uniquement pendant l'enregistrement d'un mémo vocal que vous lancez.</li>
+      <li><strong>Notifications et alarmes exactes</strong> : afficher vos rappels à l'heure choisie.</li>
+      <li><strong>Démarrage du téléphone</strong> : reprogrammer les rappels après un redémarrage.</li>
+      <li><strong>Biométrie</strong> : déverrouiller les notes verrouillées. Nolira ne reçoit jamais votre empreinte.</li>
+      <li><strong>Appareil photo</strong> : Nolira ouvre l'appareil photo du téléphone et ne reçoit que la photo prise. Il ne demande pas la permission caméra.</li>
+    </ul>
+
+    <h2>Sauvegardes et partage</h2>
+    <p>Nolira fait des sauvegardes automatiques de vos notes à la fréquence et à l'heure que vous choisissez (vous pouvez les désactiver). Elles sont gardées dans l'espace privé de l'application sur votre téléphone et, seulement si vous avez choisi un dossier de copie, copiées dans ce dossier. Les exports (fichier de sauvegarde, Markdown, PDF) sont créés uniquement à votre demande, là où vous le choisissez. Si un dossier que vous avez choisi est synchronisé par un autre service (Google Drive, etc.), c'est la politique de ce service qui s'applique. Il en va de même lorsque vous partagez une note vers une autre application. Les sauvegardes peuvent être protégées par un mot de passe de sauvegarde que vous choisissez : il n'est jamais enregistré, seule une clé qui en est dérivée est conservée, chiffrée, sur votre téléphone. Nolira désactive la sauvegarde automatique d'Android vers le cloud : vos notes n'y sont jamais copiées sans action de votre part.</p>
+
+    <h2>Suppression</h2>
+    <p>Désinstaller Nolira ou effacer ses données dans les paramètres Android supprime définitivement toutes les données de l'application. Les fichiers de sauvegarde que vous avez exportés restent là où vous les avez mis.</p>
+
+    <h2>Enfants</h2>
+    <p>Nolira ne collecte aucune donnée, y compris auprès des enfants.</p>
+
+    <h2>Contact</h2>
+    <p>Pour toute question : <a href="mailto:nolira@forceit.tech">nolira@forceit.tech</a></p>
+    <p>Si vous nous écrivez depuis l'application (Plus → Aide et contact), votre application d'e-mail s'ouvre avec la version de l'application, la version d'Android, le modèle du téléphone et la langue déjà remplis, pour nous aider à répondre. Rien n'est envoyé tant que vous n'envoyez pas vous-même le message, et vous pouvez retirer ces informations. Nous n'utilisons votre e-mail que pour vous répondre.</p>
+  </section>
+</main>
+</body>
+</html>
