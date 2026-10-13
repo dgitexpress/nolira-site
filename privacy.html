@@ -33,6 +33,7 @@
       <li>The text of your notes, checklists, folders, tags and reminders.</li>
       <li>Photos you add (copied into the app's private storage) and voice memos you record.</li>
       <li>Text read from your photos, used for search. This runs on the device with a bundled model (Google ML Kit, offline version); no image is sent anywhere.</li>
+      <li>Transcripts of your voice memos (Nolira Premium), when you ask for one. Nolira uses Android's <strong>on-device</strong> speech recognition: the audio is processed on the phone and is not sent anywhere. If the language is not installed yet, Android itself offers to download it; Nolira takes no part in that download.</li>
       <li>Your preferences (theme, text size…).</li>
     </ul>
     <p>Locked notes are encrypted (AES-256-GCM) with a key kept in the Android Keystore.</p>
@@ -44,7 +45,11 @@
       <li><strong>Boot completed</strong>: reschedule reminders after a restart.</li>
       <li><strong>Biometrics</strong>: unlock locked notes. Nolira never receives your fingerprint.</li>
       <li><strong>Camera</strong>: Nolira opens your phone's camera app and only receives the photo you take. It does not request the camera permission.</li>
+      <li><strong>Google Play billing</strong>: lets the Google Play Store app handle the optional Nolira Premium purchase.</li>
     </ul>
+
+    <h2>Nolira Premium (optional purchase)</h2>
+    <p>Nolira Premium is a one-time purchase made through Google Play. Google Play handles the payment and its connection: Nolira never receives your name, email address or payment details, and has no server. Nolira only asks the Play Store app on your phone whether the purchase exists on your Google account, and keeps a "Premium active" marker on the phone. Google's privacy policy applies to the payment. Nothing about your notes is involved.</p>
 
     <h2>Backups and sharing</h2>
     <p>Nolira makes automatic backups of your notes at the frequency and time you choose (you can turn them off). They are kept in the app's private storage on your phone and, only if you chose a backup folder, copied to that folder. Exports (backup file, Markdown, PDF) are created only when you ask, where you pick. If a folder you chose is synced by another service (Google Drive, etc.), that service's policy applies. The same goes for sharing a note to another app. Backups can be protected by a backup password you choose: it is never stored, only a key derived from it, kept encrypted on your phone. Nolira opts out of Android's automatic cloud backup, so your notes are never copied to the cloud without your action.</p>
@@ -72,6 +77,7 @@
       <li>Le texte de vos notes, listes, dossiers, tags et rappels.</li>
       <li>Les photos que vous ajoutez (copiées dans l'espace privé de l'application) et les mémos vocaux que vous enregistrez.</li>
       <li>Le texte lu dans vos photos, pour la recherche. Cette lecture se fait sur l'appareil avec un modèle intégré (Google ML Kit, version hors ligne), sans envoi d'image.</li>
+      <li>La transcription de vos mémos vocaux (Nolira Premium), quand vous la demandez. Nolira utilise la reconnaissance vocale <strong>sur l'appareil</strong> d'Android : l'audio est traité sur le téléphone et n'est envoyé nulle part. Si la langue n'est pas encore installée, c'est Android qui propose de la télécharger ; Nolira ne participe pas à ce téléchargement.</li>
       <li>Vos préférences (thème, taille du texte…).</li>
     </ul>
     <p>Les notes verrouillées sont chiffrées (AES-256-GCM) avec une clé conservée dans le Keystore Android.</p>
@@ -83,7 +89,11 @@
       <li><strong>Démarrage du téléphone</strong> : reprogrammer les rappels après un redémarrage.</li>
       <li><strong>Biométrie</strong> : déverrouiller les notes verrouillées. Nolira ne reçoit jamais votre empreinte.</li>
       <li><strong>Appareil photo</strong> : Nolira ouvre l'appareil photo du téléphone et ne reçoit que la photo prise. Il ne demande pas la permission caméra.</li>
+      <li><strong>Facturation Google Play</strong> : permettre à l'application Play Store de gérer l'achat facultatif de Nolira Premium.</li>
     </ul>
+
+    <h2>Nolira Premium (achat facultatif)</h2>
+    <p>Nolira Premium est un achat unique effectué via Google Play. Google Play gère le paiement et sa connexion : Nolira ne reçoit jamais votre nom, votre adresse e-mail ni vos moyens de paiement, et n'a aucun serveur. Nolira demande seulement à l'application Play Store de votre téléphone si l'achat existe sur votre compte Google, et garde sur le téléphone l'indication « Premium actif ». La politique de confidentialité de Google s'applique au paiement. Vos notes ne sont jamais concernées.</p>
 
     <h2>Sauvegardes et partage</h2>
     <p>Nolira fait des sauvegardes automatiques de vos notes à la fréquence et à l'heure que vous choisissez (vous pouvez les désactiver). Elles sont gardées dans l'espace privé de l'application sur votre téléphone et, seulement si vous avez choisi un dossier de copie, copiées dans ce dossier. Les exports (fichier de sauvegarde, Markdown, PDF) sont créés uniquement à votre demande, là où vous le choisissez. Si un dossier que vous avez choisi est synchronisé par un autre service (Google Drive, etc.), c'est la politique de ce service qui s'applique. Il en va de même lorsque vous partagez une note vers une autre application. Les sauvegardes peuvent être protégées par un mot de passe de sauvegarde que vous choisissez : il n'est jamais enregistré, seule une clé qui en est dérivée est conservée, chiffrée, sur votre téléphone. Nolira désactive la sauvegarde automatique d'Android vers le cloud : vos notes n'y sont jamais copiées sans action de votre part.</p>
