@@ -22,7 +22,7 @@
 <body>
 <main>
   <h1><span>Nolira</span> — Privacy policy</h1>
-  <p class="muted">Last updated: October 13, 2026 · <a href="#fr">Version française plus bas</a></p>
+  <p class="muted">Last updated: October 14, 2026 · <a href="#fr">Version française plus bas</a></p>
 
   <section>
     <h2>In short</h2>
@@ -34,6 +34,7 @@
       <li>Photos you add (copied into the app's private storage) and voice memos you record.</li>
       <li>Text read from your photos, used for search. This runs on the device with a bundled model (Google ML Kit, offline version); no image is sent anywhere.</li>
       <li>Transcripts of your voice memos (Nolira Premium), when you ask for one. Nolira uses Android's <strong>on-device</strong> speech recognition: the audio is processed on the phone and is not sent anywhere. If the language is not installed yet, Android itself offers to download it; Nolira takes no part in that download.</li>
+      <li>Documents you scan or add (Nolira Premium): the PDF is copied into the app's private storage, and its text is read on the device (as for photos) for search. The document scanner is provided by Google Play services on your phone: it shows its own screen, works on the device, and Nolira only receives the finished PDF. The first time, Google Play services downloads the scanner module itself, as it does for its other components; Nolira takes no part in that download and never sends your documents anywhere.</li>
       <li>Your preferences (theme, text size…).</li>
     </ul>
     <p>Locked notes are encrypted (AES-256-GCM) with a key kept in the Android Keystore.</p>
@@ -44,7 +45,7 @@
       <li><strong>Notifications and exact alarms</strong>: show your reminders on time.</li>
       <li><strong>Boot completed</strong>: reschedule reminders after a restart.</li>
       <li><strong>Biometrics</strong>: unlock locked notes. Nolira never receives your fingerprint.</li>
-      <li><strong>Camera</strong>: Nolira opens your phone's camera app and only receives the photo you take. It does not request the camera permission.</li>
+      <li><strong>Camera</strong>: Nolira opens your phone's camera app (or the Google Play services document scanner) and only receives the photo or document you take. It does not request the camera permission.</li>
       <li><strong>Google Play billing</strong>: lets the Google Play Store app handle the optional Nolira Premium purchase.</li>
     </ul>
 
@@ -66,7 +67,7 @@
   </section>
 
   <h1 id="fr" style="margin-top:48px"><span>Nolira</span> — Politique de confidentialité</h1>
-  <p class="muted" lang="fr">Dernière mise à jour : 13 octobre 2026</p>
+  <p class="muted" lang="fr">Dernière mise à jour : 14 octobre 2026</p>
 
   <section lang="fr">
     <h2>En résumé</h2>
@@ -78,6 +79,7 @@
       <li>Les photos que vous ajoutez (copiées dans l'espace privé de l'application) et les mémos vocaux que vous enregistrez.</li>
       <li>Le texte lu dans vos photos, pour la recherche. Cette lecture se fait sur l'appareil avec un modèle intégré (Google ML Kit, version hors ligne), sans envoi d'image.</li>
       <li>La transcription de vos mémos vocaux (Nolira Premium), quand vous la demandez. Nolira utilise la reconnaissance vocale <strong>sur l'appareil</strong> d'Android : l'audio est traité sur le téléphone et n'est envoyé nulle part. Si la langue n'est pas encore installée, c'est Android qui propose de la télécharger ; Nolira ne participe pas à ce téléchargement.</li>
+      <li>Les documents que vous scannez ou ajoutez (Nolira Premium) : le PDF est copié dans l'espace privé de l'application, et son texte est lu sur l'appareil (comme pour les photos) pour la recherche. Le scanner de documents est fourni par les services Google Play du téléphone : il affiche son propre écran, fonctionne sur l'appareil, et Nolira ne reçoit que le PDF terminé. La première fois, les services Google Play téléchargent eux-mêmes le module du scanner, comme pour leurs autres composants ; Nolira ne participe pas à ce téléchargement et n'envoie jamais vos documents nulle part.</li>
       <li>Vos préférences (thème, taille du texte…).</li>
     </ul>
     <p>Les notes verrouillées sont chiffrées (AES-256-GCM) avec une clé conservée dans le Keystore Android.</p>
@@ -88,7 +90,7 @@
       <li><strong>Notifications et alarmes exactes</strong> : afficher vos rappels à l'heure choisie.</li>
       <li><strong>Démarrage du téléphone</strong> : reprogrammer les rappels après un redémarrage.</li>
       <li><strong>Biométrie</strong> : déverrouiller les notes verrouillées. Nolira ne reçoit jamais votre empreinte.</li>
-      <li><strong>Appareil photo</strong> : Nolira ouvre l'appareil photo du téléphone et ne reçoit que la photo prise. Il ne demande pas la permission caméra.</li>
+      <li><strong>Appareil photo</strong> : Nolira ouvre l'appareil photo du téléphone (ou le scanner de documents des services Google Play) et ne reçoit que la photo ou le document pris. Il ne demande pas la permission caméra.</li>
       <li><strong>Facturation Google Play</strong> : permettre à l'application Play Store de gérer l'achat facultatif de Nolira Premium.</li>
     </ul>
 
